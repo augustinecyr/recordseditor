@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+</head>
+<body>
+    <h1><marquee>---Welcome to Editor---</marquee></h1>
+   
+    <div>
+        <br><br>
+        <a>Username: <input type="text" required></a>
+        <a>Password: <input type="password" required></a>
+        <a th:href="@{/person/personList}"><button>Login</button></a>
+    </div>
+</body>
+</html>
